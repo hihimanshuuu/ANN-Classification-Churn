@@ -1,6 +1,3 @@
-import os
-print("Current working directory:", os.getcwd())
-print("app.py location:", os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import numpy as np
 import tensorflow as tf
